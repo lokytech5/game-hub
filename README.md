@@ -1,6 +1,7 @@
 # GameHub: Your Go-To Video Game Discovery Web App 
 ## Screenshots
-[Screenshots](/src/assets/gameHub.png) [Game Hub]()
+![Screenshots](/src/assets/gameHub.png) 
+link: [Game Hub](https://game-hub-git-main-lokytech5.vercel.app/)
 
 Hey there, fellow gamer! 🎮 Ever felt overwhelmed by the sheer amount of video games available these days? Worry no more, because GameHub is here to help you navigate the vast seas of gaming. 
 
