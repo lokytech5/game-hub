@@ -25,7 +25,7 @@ const GenreList = ({selectedGenre, onSelectedGenre}: Props) => {
 
   return (
     <>
-    <Heading fontSize='2xl' marginBottom={3}>Genres</Heading>
+    <Heading fontSize='2xl' marginTop={9} marginBottom={3}>Genres</Heading>
     <List>
       {data.map((genre) => (
         <ListItem key={genre.id} paddingY="5px">
@@ -40,7 +40,7 @@ const GenreList = ({selectedGenre, onSelectedGenre}: Props) => {
               textAlign='left'
               whiteSpace='normal'
               onClick={() => onSelectedGenre(genre)}
-              fontSize="lg"
+              fontSize="md"
               fontWeight={genre.id === selectedGenre?.id ? "bold" : "normal"}
               variant="link"
             >
